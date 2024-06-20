@@ -4,7 +4,7 @@ import {
   Stack, Typography,
 } from '@mui/joy';
 import {
-  FaDeviantart, FaGithub, FaGitlab, FaLinkedin,
+  FaGithub, FaLinkedin, FaStackOverflow,
 } from 'react-icons/fa';
 import { FiMail, FiPhone } from 'react-icons/fi';
 import { SiResearchgate } from 'react-icons/si';
@@ -127,22 +127,10 @@ export default function Contact() {
             color: '#E6EDF3',
           },
           {
-            url: details.contact.gitlab,
-            icon: <FaGitlab />,
-            title: 'GitLab',
-            color: '#fc6d26',
-          },
-          {
-            url: details.contact.deviantart,
-            icon: <FaDeviantart />,
-            title: 'DeviantArt',
+            url: details.contact.stackoverflow,
+            icon: <FaStackOverflow />,
+            title: 'StackOverflow',
             color: '#00E59B',
-          },
-          {
-            url: details.contact.researchgate,
-            icon: <SiResearchgate />,
-            title: 'ResearchGate',
-            color: '#1fada2',
           },
         ]}
       />

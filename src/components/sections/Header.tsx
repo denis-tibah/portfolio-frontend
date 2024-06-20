@@ -28,10 +28,9 @@ export default function Header() {
   const greeting = useMemo(greetingFactory, []);
 
   const { colorScheme } = useColorScheme();
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const dark = useMemo(() => colorScheme === 'dark', [colorScheme]);
 
-  const currentCompany = useMemo(() => details.experience.find((experience) => experience.end === 'Present') || undefined, []);
+  // const currentCompany = useMemo(() => details.experience.find((experience) => experience.end === 'Present') || undefined, []);
 
   return (
     <Stack
@@ -163,7 +162,7 @@ export default function Header() {
           Software engineer
         </Typography>
             &nbsp;
-        {currentCompany ? (
+        {/* {currentCompany ? (
           <>
             {'at '}
             <ATypography textColor="text.primary" href={currentCompany.url}>
@@ -175,10 +174,9 @@ export default function Header() {
         and an
         {' '}
         <Typography textColor="text.primary">
-          Open-source
+          Senior Software Engineer
         </Typography>
-        {' '}
-        enthusiast.
+        {' '} */}
       </Typography>
     </Stack>
   );

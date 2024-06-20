@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import {
   Avatar,
   Card,
@@ -93,7 +92,7 @@ export default function Terminal() {
 
   const mobile = useMobileMode();
   const { colorScheme } = useColorScheme();
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  
   const dark = colorScheme === 'dark';
 
   useEffect(() => {

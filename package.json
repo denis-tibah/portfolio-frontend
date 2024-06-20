@@ -37,12 +37,6 @@
     "test": "react-scripts test",
     "build:assets": "tsx scripts/build-assets.ts"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",

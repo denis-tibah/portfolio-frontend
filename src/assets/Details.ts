@@ -1,73 +1,45 @@
-import aauMin from 'assets/icons/aau.min.webp';
-import aau from 'assets/icons/aau.webp';
-import akanthasMin from 'assets/icons/akanthas.min.webp';
-import akanthas from 'assets/icons/akanthas.webp';
-import enseeihtMin from 'assets/icons/enseeiht.min.webp';
-import enseeiht from 'assets/icons/enseeiht.webp';
-import escapeMin from 'assets/icons/escape.min.webp';
-import escape from 'assets/icons/escape.webp';
-import kanopMin from 'assets/icons/kanop.min.webp';
-import kanop from 'assets/icons/kanop.webp';
-import lfdcMin from 'assets/icons/lfdc.min.webp';
-import lfdc from 'assets/icons/lfdc.webp';
-import supadmMin from 'assets/icons/supadm.min.webp';
-import supadm from 'assets/icons/supadm.webp';
+import idreamersMin from 'assets/icons/idreamers.min.webp';
+import idreamers from 'assets/icons/idreamers.webp';
+import csuMin from 'assets/icons/csu.min.webp';
+import csu from 'assets/icons/csu.webp';
+import truckpediaMin from 'assets/icons/truckpedia.min.webp';
+import truckpedia from 'assets/icons/truckpedia.webp';
+import minteaMin from 'assets/icons/mintea.min.webp';
+import mintea from 'assets/icons/mintea.webp';
+import classdojoMin from 'assets/icons/classdojo.min.webp';
+import classdojo from 'assets/icons/classdojo.webp';
 
 const details = {
   name: {
-    first: 'Elliot',
-    last: 'Négrel-Jerzy',
-    nickname: 'BSoDium',
+    first: 'Denis Ndaya',
+    last: 'Tibah',
+    nickname: 'Denis',
   },
   education: [
     {
-      school: 'ENSEEIHT',
-      url: 'https://www.enseeiht.fr/en/index.html',
-      icon: enseeiht,
-      iconMin: enseeihtMin,
-      location: 'Toulouse, France',
-      degree: 'Master',
-      major: 'Computer Science',
-      start: 'Sep 2020',
-      end: 'May 2023',
-    },
-    {
-      school: 'AAU Klagenfurt',
-      url: 'https://www.aau.at/en/',
-      icon: aau,
-      iconMin: aauMin,
-      location: 'Klagenfurt, Austria',
-      degree: 'Master',
-      major: 'Computer Graphics and Vision',
-      start: 'Sep 2022',
-      end: 'Mar 2023',
-    },
-    {
-      school: 'CPGE Lycée Déodat de Séverac',
-      url: 'https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=4052',
-      location: 'Toulouse, France',
-      degree: 'PTSI/PSI* (Bachelor equivalent)',
-      major: 'Mathematics and Physics',
-      start: 'Sep 2018',
-      end: 'Jul 2020',
+      school: 'Columbia Southern University',
+      url: 'https://start.columbiasouthern.edu/',
+      icon: csu,
+      iconMin: csuMin,
+      location: 'Orange Beach, AL 36561',
+      degree: 'Bachelor',
+      major: 'Information Technology',
+      start: 'Sep 2007',
+      end: 'May 2011',
     },
   ],
   experience: [
     {
-      company: 'Escape technologies',
-      url: 'https://www.escape.tech/',
-      icon: escape,
-      iconMin: escapeMin,
-      location: 'Paris, France',
-      contract: 'Full-time',
+      company: 'Truckpedia',
+      url: 'https://truckpedia.io/',
+      icon: truckpedia,
+      iconMin: truckpediaMin,
+      location: 'Los Angeles, CA',
+      contract: 'Contract',
       position: 'Full-stack engineer',
-      start: 'Nov 2023',
-      end: 'May 2024',
-      description: [
-        'Designed and built a Svelte component library based on the latest Material UI guidelines, greatly increasing development speed and design consistency.',
-        'Researched and implemented a contrast-aware palette generation algorithm which significantly improved aesthetics and accessibility.',
-        'Redesigned the company website to improve SEO and user experience, leading to a 30% increase in traffic and a 20% increase in conversion rate.',
-      ],
+      start: 'May 2022',
+      end: 'Apr 2024',
+      description: [],
       skills: [
         'R&D',
         'UI/UX',
@@ -78,20 +50,16 @@ const details = {
       ],
     },
     {
-      company: 'Kanop',
-      url: 'https://www.kanop.io/',
-      icon: kanop,
-      iconMin: kanopMin,
-      location: 'Paris, France',
-      contract: 'Freelance & Internship',
+      company: 'Mintea',
+      url: 'https://www.innovatorspark.com/',
+      icon: mintea,
+      iconMin: minteaMin,
+      location: 'Minneapolis, MN',
+      contract: 'Full-time',
       position: 'Front-end engineer',
-      start: 'Jun 2022',
-      end: 'Sep 2023',
-      description: [
-        'Pioneered the design and deployment of cutting-edge web applications using React TypeScript, D3.js, and Mapbox GL for advanced mapping and chart visualizations.',
-        'Collaborated with data scientists and UX designers to create impactful and user-friendly visualizations and interfaces.',
-        'Led major website overhauls improving navigation, aesthetics, and SEO, while ensuring optimal functionality and user experience.',
-      ],
+      start: 'Apr 20218',
+      end: 'May 2022',
+      description: [],
       skills: [
         'React',
         'Node JS',
@@ -102,16 +70,16 @@ const details = {
       ],
     },
     {
-      company: 'La Fresque du Climat',
-      url: 'https://fresqueduclimat.org/',
-      icon: lfdc,
-      iconMin: lfdcMin,
-      location: 'Toulouse, France',
-      contract: 'Volunteering',
-      position: 'Facilitator',
-      start: 'Feb 2022',
-      end: 'Jun 2022',
-      description: 'Facilitated workshops on climate change awareness in high schools and universities.',
+      company: 'Classdojo',
+      url: 'https://classdojo.com/',
+      icon: classdojo,
+      iconMin: classdojoMin,
+      location: 'San Francisco, CA',
+      contract: 'Full-time',
+      position: 'Full Stack Developer',
+      start: 'May 2016',
+      end: 'Apr 2018',
+      description: '',
       skills: [
         'Public speaking',
         'Climate change awareness',
@@ -119,17 +87,16 @@ const details = {
       ],
     },
     {
-      company: 'Akanthas',
-      url: 'https://www.akanthas.fr/',
-      icon: akanthas,
-      iconMin: akanthasMin,
-      location: 'Toulouse, France',
-      contract: 'Internship',
-      position: 'Data Processing & Management architecture developer',
-      start: 'Jun 2021',
-      end: 'Jul 2021',
-      description:
-        'Enhanced continuous integration/deployment infrastructure to streamline operations, implemented enhancements to a Node.js web application, and successfully retrieved image data from Arlo autonomous cameras using a public API.',
+      company: 'iDreamers',
+      url: 'https://www.idreamers.app/',
+      icon: idreamers,
+      iconMin: idreamersMin,
+      location: 'Los Angeles, CA',
+      contract: 'Freelance',
+      position: 'Software Engineer',
+      start: 'Apr 2012',
+      end: 'May 2016',
+      description: '',
       skills: [
         'Node JS',
         'Docker',
@@ -140,57 +107,26 @@ const details = {
         'OpenCV',
       ],
     },
-    {
-      company: 'Sup admission',
-      url: 'https://www.sup-admission.com/',
-      icon: supadm,
-      iconMin: supadmMin,
-      location: 'Toulouse, France',
-      contract: 'Freelance',
-      position: 'Lecturer & Tutor',
-      start: 'Sep 2021',
-      end: 'Nov 2021',
-      description:
-        'Lectures and tutoring for students preparing for the competitive entrance exams to French engineering schools.',
-      skills: [
-        'Teaching',
-        'Client relations',
-      ],
-    },
   ],
   languages: [
     {
-      name: 'French',
+      name: 'English',
       level: 'C2',
       native: true,
     },
     {
-      name: 'English',
-      level: 'C1',
-    },
-    {
-      name: 'Spanish',
-      level: 'C1',
-    },
-    {
-      name: 'Polish',
+      name: 'Chinese',
       level: 'B2',
-    },
-    {
-      name: 'German',
-      level: 'B1',
     },
   ],
   contact: {
-    address: 'Barcelona, España',
-    email: 'contact@bsodium.fr',
-    phone: '+33 7 83 79 29 25',
+    address: 'Seagoville, TX 75159',
+    email: 'denis.tibah0218@gmail.com',
+    phone: '323-521-4182',
     website: 'https://www.bsodium.fr',
     linkedin: 'https://www.linkedin.com/in/bsodium/',
-    github: 'https://www.github.com/bsodium',
-    researchgate: 'https://www.researchgate.net/profile/Elliot-Negrel-Jerzy',
-    gitlab: 'https://www.gitlab.com/bsodium',
-    deviantart: 'https://www.deviantart.com/bsodium',
+    github: 'https://github.com/denis-tibah/',
+    stackoverflow: 'https://stackoverflow.com/users/22221109/secret-point',
   },
 };
 

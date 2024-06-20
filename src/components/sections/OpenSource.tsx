@@ -1,5 +1,3 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable react/no-unknown-property */
 import {
   Avatar, Stack, Typography,
   useColorScheme,
