@@ -157,7 +157,7 @@ export default function NotFound() {
           <Stack direction="row" gap={2} alignSelf="stretch" flexWrap="wrap" padding={nonDesktop ? 1 : 0}>
             <Button
               component={Link}
-              to="https://github.com/BSoDium/bsodium.fr/issues/new"
+              to="https://github.com/denis-tibah/portfolio-frontend/issues/new"
               target="_blank"
               size="lg"
               variant="outlined"

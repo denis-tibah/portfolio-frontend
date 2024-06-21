@@ -3,22 +3,10 @@ import React from 'react';
 import { animated } from '@react-spring/web';
 import { useMobileMode } from './Responsive';
 
-/**
- * Component displaying credits for this website.
- *
- * **WARNING**: Removing this code violates the license agreement.
- * Any modifications to this code without proper attribution will
- * expose you to legal risks.
- *
- * If you have any doubts about the usage of this code, please
- * contact the author for clarification, by [filing an issue](https://github.com/BSoDium/bsodium.fr/issues/new).
- *
- * *Don't be an asshole, give credit where it's due.*
- */
 export default function Copyright() {
   const mobile = useMobileMode();
 
-  const isAuthorDomain = ['bsodium.fr', 'www.bsodium.fr'].includes(window.location.hostname);
+  const isAuthorDomain = ['denis-tibah.vercel.app', 'www.denis-tibah.vercel.app'].includes(window.location.hostname);
 
   return isAuthorDomain ? null : (
     <Card
@@ -47,19 +35,19 @@ export default function Copyright() {
       >
         Credit to
         {' '}
-        <Link href="https://github.com/BSoDium" target="_blank">
-          BSoDium
+        <Link href="https://github.com/denis-tibah" target="_blank">
+          Denis
         </Link>
         {' '}
         for the
         {' '}
-        <Link href="https://www.bsodium.fr" target="_blank">
+        <Link href="https://denis-tibah.vercel.app/" target="_blank">
           original design
         </Link>
         {' '}
         and
         {' '}
-        <Link href="https://github.com/BSoDium/bsodium.fr" target="_blank">
+        <Link href="https://github.com/denis-tibah/portfolio-frontend" target="_blank">
           code
         </Link>
         .

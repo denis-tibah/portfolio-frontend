@@ -1,8 +1,8 @@
-# bsodium.fr
+# denis-tibah.vercel.app
 
 ## Overview
 
-This repository contains the source code of my eportfolio, a React progressive web app which showcases my skills and projects. It is based on *MUI Joy* for UI components, *React Spring* for animations and *DALL-E 3* for illustration generation. Feel free to check out the latest production deployment at https://bsodium.fr.
+This repository contains the source code of my eportfolio, a React progressive web app which showcases my skills and projects. It is based on *MUI Joy* for UI components, *React Spring* for animations and *DALL-E 3* for illustration generation. Feel free to check out the latest production deployment at https://denis-tibah.vercel.app.
 
 This project is available for free as a proof of concept and source of inspiration, and was by design tailored to my personal needs. However, its generic structure and components could technically allow anyone to make it their own.
 
@@ -31,7 +31,7 @@ In its default configuration, the app should be available at http://localhost:30
 
 ### Backend
 
-For detailed documentation on how to run the backend, please refer to the [api.bsodium.fr](https://github.com/BSoDium/api.bsodium.fr) repository.
+For detailed documentation on how to run the backend, please refer to the [denis-tibah-backend.vercel.app](https://github.com/denis-tibah/portfolio-backend) repository.
 
 By default, the backend is expected to run on `http://localhost:3001`. If you decide to change this, you should also modify the `REACT_APP_API_URL` environment variable in the `.env.local` file accordingly.
 

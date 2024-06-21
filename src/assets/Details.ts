@@ -123,9 +123,9 @@ const details = {
     address: 'Seagoville, TX 75159',
     email: 'denis.tibah0218@gmail.com',
     phone: '323-521-4182',
-    website: 'https://www.bsodium.fr',
-    linkedin: 'https://www.linkedin.com/in/bsodium/',
-    github: 'https://github.com/denis-tibah/',
+    website: 'https://denis-tibah.vercel.app',
+    linkedin: 'https://www.linkedin.com/in/denis-tibah-885b44314',
+    github: 'https://github.com/denis-tibah',
     stackoverflow: 'https://stackoverflow.com/users/22221109/secret-point',
   },
 };

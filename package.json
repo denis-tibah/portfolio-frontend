@@ -1,9 +1,9 @@
 {
-  "name": "bsodium.fr",
+  "name": "denis-tibah-frontend",
   "version": "1.0.0",
   "license": "GPL-2.0-only",
-  "author": "BSoDium",
-  "url": "https://www.bsodium.fr",
+  "author": "Denis Tibah",
+  "url": "https://denis-tibah.vercel.app",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.1",
