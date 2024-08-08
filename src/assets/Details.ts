@@ -38,7 +38,7 @@ const details = {
       contract: "Contract",
       position: "Full-stack engineer",
       start: "May 2022",
-      end: "Apr 2024",
+      end: "Jul 2024",
       description: [],
       skills: [
         "R&D",
@@ -63,7 +63,7 @@ const details = {
       location: "Minneapolis, MN",
       contract: "Full-time",
       position: "Front-end engineer",
-      start: "Apr 20218",
+      start: "Apr 2018",
       end: "May 2022",
       description: [],
       skills: [
