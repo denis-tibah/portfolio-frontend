@@ -61,7 +61,7 @@ export default function Resume() {
   const mobile = useMobileMode();
 
   const [descriptionEditable, setDescriptionEditable] = useState(false);
-  const [descriptionContent, setDescriptionContent] = useState('A seasoned software engineer with around 12 years of extensive experience in a wide range of technologies including JavaScript, TypeScript, Java, C#, and PHP, alongside proficiency in frontend and backend frameworks. He has demonstrated expertise in developing scalable mobile & web applications, integrating cloud services, and optimizing systems across various sectors, making significant contributions to project management and team mentorship.');
+  const [descriptionContent, setDescriptionContent] = useState('A seasoned software engineer with over 12 years of extensive experience in a wide range of technologies including JavaScript, TypeScript, Java, C#, and PHP, alongside proficiency in frontend and backend frameworks. He has demonstrated expertise in developing scalable mobile & web applications, integrating cloud services, and optimizing systems across various sectors, making significant contributions to project management and team mentorship.');
   const parsedDescriptionContent = useMemo(
     () => (marked.parse(descriptionContent) as string).replace(/<p>/g, '').replace(/<\/p>/g, ''),
     [descriptionContent],
