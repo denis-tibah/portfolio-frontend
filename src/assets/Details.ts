@@ -17,21 +17,20 @@ const details = {
   },
   education: [
     {
-      school: "Columbia Southern University",
-      url: "https://start.columbiasouthern.edu/",
+      school: "University of Texas at Austin - Cockrell School of Engineering",
+      url: "https://petex.utexas.edu/",
       icon: csu,
       iconMin: csuMin,
-      location: "Orange Beach, AL 36561",
-      degree: "Bachelor",
-      major: "Information Technology",
-      start: "Sep 2007",
+      location: "Austin, TX 78712",
+      degree: "Master's Degree",
+      major: "Computer science",
+      start: "Sep 2006",
       end: "May 2011",
     },
   ],
   experience: [
     {
-      company: "Truckpedia",
-      url: "https://truckpedia.io/",
+      company: "Global Solutions Link",
       icon: truckpedia,
       iconMin: truckpediaMin,
       location: "Los Angeles, CA",
@@ -71,12 +70,12 @@ const details = {
         "Nest.js",
         "Playwright",
         "C#",
-        "ASP.NET"
+        "ASP.NET",
       ],
     },
     {
-      company: "Prairie Health",
-      url: "https://www.innovatorspark.com/",
+      company: "Brew Apps",
+      url: "https://thebrewapps.io",
       icon: prairie,
       iconMin: prairieMin,
       location: "Minneapolis, MN",
@@ -105,7 +104,7 @@ const details = {
         "Azure",
         "Python",
         "Django",
-        "Flask"
+        "Flask",
       ],
     },
     {
@@ -134,7 +133,7 @@ const details = {
         ".NET",
         "React",
         "GCP",
-        "Jenkins"
+        "Jenkins",
       ],
     },
     {
