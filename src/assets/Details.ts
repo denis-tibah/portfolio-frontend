@@ -1,11 +1,11 @@
 import idreamersMin from "assets/icons/idreamers.min.webp";
 import idreamers from "assets/icons/idreamers.webp";
-import csuMin from "assets/icons/csu.min.webp";
-import csu from "assets/icons/csu.webp";
-import truckpediaMin from "assets/icons/truckpedia.min.webp";
-import truckpedia from "assets/icons/truckpedia.webp";
-import prairieMin from "assets/icons/prairie.min.webp";
-import prairie from "assets/icons/prairie.webp";
+import ustMin from "assets/icons/ust.min.webp";
+import ust from "assets/icons/ust.webp";
+import glsMin from "assets/icons/gls.min.webp";
+import gls from "assets/icons/gls.webp";
+import bra from "assets/icons/bra.webp";
+import braMin from "assets/icons/bra.min.webp";
 import classdojoMin from "assets/icons/classdojo.min.webp";
 import classdojo from "assets/icons/classdojo.webp";
 
@@ -19,8 +19,8 @@ const details = {
     {
       school: "University of Texas at Austin - Cockrell School of Engineering",
       url: "https://petex.utexas.edu/",
-      icon: csu,
-      iconMin: csuMin,
+      icon: ust,
+      iconMin: ustMin,
       location: "Austin, TX 78712",
       degree: "Master's Degree",
       major: "Computer science",
@@ -30,9 +30,9 @@ const details = {
   ],
   experience: [
     {
-      company: "Global Solutions Link",
-      icon: truckpedia,
-      iconMin: truckpediaMin,
+      company: "Global Link Solutions",
+      icon: gls,
+      iconMin: glsMin,
       location: "Irving,  TX",
       contract: "Contract",
       position: "Full-stack engineer",
@@ -76,8 +76,8 @@ const details = {
     {
       company: "Brew Apps",
       url: "https://thebrewapps.io",
-      icon: prairie,
-      iconMin: prairieMin,
+      icon: bra,
+      iconMin: braMin,
       location: "Sheridan, WY",
       contract: "Full-time",
       position: "Front-end engineer",
